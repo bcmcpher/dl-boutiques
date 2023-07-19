@@ -10,18 +10,18 @@ lgr = logging.getLogger('datalad.boutiques')
 # to be found by datalad
 command_suite = (
     # description of the command suite, displayed in cmdline help
-    "Demo DataLad command suite",
+    "DataLad Boutiques Command Suite",
     [
         # specification of a command, any number of commands can be defined
         (
             # importable module that contains the command implementation
-            'datalad_boutiques.hello_cmd',
+            'datalad_boutiques.boutiques',
             # name of the command class implementation in above module
             'Boutiques',
             # optional name of the command in the cmdline API
-            'hello-cmd',
+            'boutiques',
             # optional name of the command in the Python API
-            'hello_cmd'
+            'boutiques'
         ),
     ]
 )
