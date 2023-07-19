@@ -1,9 +1,9 @@
-"""DataLad demo extension"""
+"""DataLad Boutiques Extension"""
 
 __docformat__ = 'restructuredtext'
 
 import logging
-lgr = logging.getLogger('datalad.helloworld')
+lgr = logging.getLogger('datalad.boutiques')
 
 # Defines a datalad command suite.
 # This variable must be bound as a setuptools entrypoint
@@ -15,9 +15,9 @@ command_suite = (
         # specification of a command, any number of commands can be defined
         (
             # importable module that contains the command implementation
-            'datalad_helloworld.hello_cmd',
+            'datalad_boutiques.hello_cmd',
             # name of the command class implementation in above module
-            'HelloWorld',
+            'Boutiques',
             # optional name of the command in the cmdline API
             'hello-cmd',
             # optional name of the command in the Python API

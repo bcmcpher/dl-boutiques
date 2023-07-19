@@ -1,4 +1,4 @@
-# dl-boutiques
+# datalad-boutiques
 OHBM 2023 hackathon Project
 
 ## Boutiques Integration to Datalad
@@ -39,10 +39,9 @@ some experience (or interest in learning the mechanics of)
 
 dl-boutiques
 
-# DataLad extension template
+# DataLad Extension Template
 
 [![Build status](https://ci.appveyor.com/api/projects/status/g9von5wtpoidcecy/branch/main?svg=true)](https://ci.appveyor.com/project/mih/datalad-extension-template/branch/main) [![codecov.io](https://codecov.io/github/datalad/datalad-extension-template/coverage.svg?branch=main)](https://codecov.io/github/datalad/datalad-extension-template?branch=main) [![crippled-filesystems](https://github.com/datalad/datalad-extension-template/workflows/crippled-filesystems/badge.svg)](https://github.com/datalad/datalad-extension-template/actions?query=workflow%3Acrippled-filesystems) [![docs](https://github.com/datalad/datalad-extension-template/workflows/docs/badge.svg)](https://github.com/datalad/datalad-extension-template/actions?query=workflow%3Adocs)
-
 
 This repository contains an extension template that can serve as a starting point
 for implementing a [DataLad](http://datalad.org) extension. An extension can
@@ -65,10 +64,8 @@ To start implementing your own extension, [use this
 template](https://github.com/datalad/datalad-extension-template/generate), and
 adjust as necessary. A good approach is to
 
-- Pick a name for the new extension.
-- Look through the sources and replace `helloworld` with
-  `<newname>` (hint: `git grep helloworld` should find all
-  spots).
+- ~~Pick a name for the new extension.~~
+- ~~Look through the sources and replace `helloworld` with `<newname>` (hint: `git grep helloworld` should find all spots).~~
 - Delete the example command implementation in `datalad_helloworld/hello_cmd.py`.
 - Implement a new command, and adjust the `command_suite` in
   `datalad_helloworld/__init__.py` to point to it.
