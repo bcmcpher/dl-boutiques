@@ -1,3 +1,44 @@
+# dl-boutiques
+OHBM 2023 hackathon Project
+
+## Boutiques Integration to Datalad
+
+## Description and the goals for the OHBM BrainHack
+
+The idea is to create a datalad plugin for boutiques functionality.
+
+Datalad has a lot of useful functionality already, specifically: rerunning commands or scripts and "installing" containers to a dataset.
+
+Boutiques is a tool for annotating an analysis script. It documents the inputs, outputs, and container to run a specific script. It's basically a .json sidecar for your analysis.
+
+The goal of the plugin will be to create a `datalad boutiques` command that can streamline:
+ - installing a boutiques command / container from zenodo to a datalad dataset
+ - call the installed container on data within the dataset
+ - provide useful ways of tracking the outputs 
+ - stringing multiple pipelines together
+
+## Participants
+
+### Project Proposer (lead?)
+
+- Brent McPherson (bcmcpher)
+
+### Contributors
+
+- Jacob Sanz-Robinson
+
+## Skills
+
+- python (both tools are python based)
+
+some experience (or interest in learning the mechanics of)
+- datalad
+- boutiques
+
+## Short name for the Discord chat channel (~15 chars)
+
+dl-boutiques
+
 # DataLad extension template
 
 [![Build status](https://ci.appveyor.com/api/projects/status/g9von5wtpoidcecy/branch/main?svg=true)](https://ci.appveyor.com/project/mih/datalad-extension-template/branch/main) [![codecov.io](https://codecov.io/github/datalad/datalad-extension-template/coverage.svg?branch=main)](https://codecov.io/github/datalad/datalad-extension-template?branch=main) [![crippled-filesystems](https://github.com/datalad/datalad-extension-template/workflows/crippled-filesystems/badge.svg)](https://github.com/datalad/datalad-extension-template/actions?query=workflow%3Acrippled-filesystems) [![docs](https://github.com/datalad/datalad-extension-template/workflows/docs/badge.svg)](https://github.com/datalad/datalad-extension-template/actions?query=workflow%3Adocs)
