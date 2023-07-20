@@ -15,7 +15,7 @@ from datalad.support.constraints import EnsureChoice
 from datalad.interface.results import get_status_dict
 
 import logging
-lgr = logging.getLogger('datalad.boutiques.hello_cmd')
+lgr = logging.getLogger('datalad.boutiques.boutiques')
 
 
 # decoration auto-generates standard help
@@ -44,7 +44,7 @@ class Boutiques(Interface):
 
     @staticmethod
     # decorator binds the command to the Dataset class as a method
-    @datasetmethod(name='hello_cmd')
+    @datasetmethod(name='boutiques')
     # generic handling of command results (logging, rendering, filtering, ...)
     @eval_results
     # signature must match parameter list above
