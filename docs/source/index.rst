@@ -15,7 +15,7 @@ High-level API commands
 .. autosummary::
    :toctree: generated
 
-   hello_cmd
+   boutiques
 
 
 Command line reference
